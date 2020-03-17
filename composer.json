@@ -1,0 +1,29 @@
+{
+    "name": "arif-rh/easy-excel",
+    "description": "Wrapper for Easy Simple Using PHPSpreadsheet",
+    "keywords": [
+        "Excel",
+        "PHP Spreadsheet",
+        "PHP Excel",
+        "Excel Wrapper",
+        "xlsx", "xls", "Spreadsheet"
+    ],
+    "type": "library",
+    "homepage": "https://github.com/arif-rh/easy-excel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Arif RH",
+            "email": "arifrahmanhakim.net@gmail.com"
+        }
+    ],
+    "require": 
+    {
+        "phpoffice/phpspreadsheet": "^1.11"
+    },
+    "autoload": {
+        "psr-4": {
+            "Arifrh\\EasyExcel\\": "src/"
+        }
+    }
+}
